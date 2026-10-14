@@ -48,13 +48,9 @@ class Carro {
 }
 
 $carro = new Carro("Honda Civic", 12, 20);
-
 $carro->exibirInfo();
-
 $carro->dirigir(60);
-
 $carro->abastecer(10);
-
 $carro->exibirInfo();
 
 ?>
