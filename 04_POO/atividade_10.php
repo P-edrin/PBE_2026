@@ -3,7 +3,6 @@
     echo"<br><br>";
 
 class Carro {
-
     private $Modelo;
     private $Consumo;
     private $Tanque;
@@ -15,10 +14,8 @@ class Carro {
     }
 
     function abastecer($Litros) {
-
         if ($Litros > 0) {
             $this->Tanque = $this->Tanque + $Litros;
-
             echo "Abastecidos $Litros litro(s) no $this->Modelo.<br>";
         } else {
             echo "Erro: quantidade inválida.<br>";
@@ -28,15 +25,10 @@ class Carro {
     function dirigir($Km) {
 
         $Combustivel = $Km / $this->Consumo;
-
         if ($Combustivel <= $this->Tanque) {
-
             $this->Tanque = $this->Tanque - $Combustivel;
-
             echo "O carro $this->Modelo percorreu $Km km e consumiu $Combustivel litros.<br>";
-
         } else {
-
             echo "Não há combustível suficiente para percorrer $Km km.<br>";
         }
     }
