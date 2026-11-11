@@ -26,13 +26,13 @@ class Aluno {
         $imc = $this->calcularIMC();
 
         if ($imc < 18.5) {
-            return "Abaixo do peso";
+            return "Abaixo do Peso";
         } 
         else if ($imc < 25) {
-            return "Peso normal";
+            return "Peso Normal";
         } 
         else if ($imc < 30) {
-            return "Sobrepeso";
+            return "SobrePeso";
         } 
         else {
             return "Obesidade";

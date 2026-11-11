@@ -32,10 +32,10 @@
         <br>
 
         <input type="radio" name="valeTransporte" value="Sim" required>
-        Sim
+        sim
 
         <input type="radio" name="valeTransporte" value="Não">
-        Não
+        não
 
         <br><br>
 

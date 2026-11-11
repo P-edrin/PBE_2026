@@ -9,11 +9,7 @@ $altura = $_POST["altura"];
 $plano = $_POST["plano"];
 $meses = $_POST["meses"];
 
-$modalidades = [];
-
-if (isset($_POST["modalidades"])) {
-    $modalidades = $_POST["modalidades"];
-}
+$modalidades = $_POST["modalidades"];
 
 $aluno = new Aluno($nome, $peso, $altura);
 $matricula = new Matricula($aluno, $plano, $meses, $modalidades);

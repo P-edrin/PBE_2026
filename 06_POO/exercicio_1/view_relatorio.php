@@ -25,4 +25,4 @@
         <a href="view.php">Cadastrar outro</a>
 
 </body>
-</html>
+</html> 
